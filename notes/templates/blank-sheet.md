@@ -40,7 +40,7 @@ Also track due reviews in [meta/metrics.md](../../meta/metrics.md).
 
 ## Session log
 
-_Before each study session: re-read this entire sheet. After each session: add a dated entry with only what you learned that day._
+_Before each study session: re-read this entire sheet. After each session: add a dated entry with only what you learned that day. See [Session log](../../README.md#session-log) for format, example, and how this differs from `progress/study-log.md`._
 
 ### YYYY-MM-DD — [Lesson(s) or topic]
 

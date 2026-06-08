@@ -42,7 +42,7 @@ Companion docs: [GUIDE.md](./GUIDE.md) (philosophy) · [meta/README.md](./meta/R
 - [ ] One focused problem (lesson block, project section, or assessment prep)
 - [ ] Distractions blocked
 - [ ] Study in Udacity
-- [ ] **Artifact:** append dated entry to blank sheet *Session log*
+- [ ] **Artifact:** append dated entry to blank sheet *Session log* ([what is a session log?](./notes/README.md#session-log))
 - [ ] Check off completed items in program [SYLLABUS.md](./core/01-implementation-and-product-introduction/product-manager/SYLLABUS.md)
 - [ ] Jot burst in [progress/study-log.md](./progress/study-log.md) (can batch at end of day)
 

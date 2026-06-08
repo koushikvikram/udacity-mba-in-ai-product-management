@@ -71,6 +71,8 @@ Why this fits an MBA better than transcript-style notes:
 
 Template: [notes/templates/blank-sheet.md](./notes/templates/blank-sheet.md)
 
+**Session log:** the dated learning diary inside each course blank sheet — not the weekly hours table in `progress/study-log.md`. Full definition, format, and example → [notes/README.md § Session log](./notes/README.md#session-log).
+
 Use [module-notes.md](./notes/templates/module-notes.md) only for one-off deep dives (a single lesson or reading that deserves its own page).
 
 ### Epictetus operating model (how you perform)
