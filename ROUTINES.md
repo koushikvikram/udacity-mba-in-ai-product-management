@@ -10,16 +10,16 @@ Companion docs: [GUIDE.md](./GUIDE.md) (philosophy) · [meta/README.md](./meta/R
 
 | Cadence | Time | Doc / template |
 |---------|------|----------------|
-| **Per burst** | 25–50 min | This doc § Per burst |
-| **Daily** | Study days | This doc § Daily |
-| **Event (≤24h)** | After setback | [post-mortem.md](./meta/templates/post-mortem.md) |
-| **Weekly** | ~15–20 min | [weekly-meta-review.md](./meta/templates/weekly-meta-review.md) + [weekly-review.md](./notes/templates/weekly-review.md) |
-| **Monthly** | ~20 min | [monthly-review.md](./meta/templates/monthly-review.md) |
-| **End of course** | ~15 min | This doc § End of course |
-| **End of program** | ~30 min | This doc § End of program |
-| **End of module group** | ~20 min | This doc § End of module group |
-| **End of capstone** | ~1 hr | [capstone/README.md](./capstone/README.md) |
-| **End of degree** | ~1 hr | This doc § End of degree |
+| **Per burst** | 25–50 min | [§ Each burst](#each-burst-1-3-25-50-min) |
+| **Daily** | Study days | [§ Daily](#daily-study-days) · [daily-study-session.md](./meta/templates/daily-study-session.md) |
+| **Event (≤24h)** | After setback | [post-mortem.md](./meta/templates/post-mortem.md) · [§ Event-driven](#event-driven-within-24-hours) |
+| **Weekly** | ~15–20 min | [§ Weekly](#weekly-15-20-min-same-day-each-week) · [weekly-meta-review.md](./meta/templates/weekly-meta-review.md) + [weekly-review.md](./notes/templates/weekly-review.md) |
+| **Monthly** | ~20 min | [§ Monthly](#monthly-20-min-first-week-of-month) · [monthly-review.md](./meta/templates/monthly-review.md) |
+| **End of course** | ~15 min | [§ End of course](#end-of-course-15-min) |
+| **End of program** | ~30 min | [§ End of program](#end-of-program-30-min) |
+| **End of module group** | ~20 min | [§ End of module group](#end-of-module-group-20-min) |
+| **End of capstone** | ~1 hr | [capstone/README.md](./capstone/README.md) · [§ End of capstone](#end-of-capstone-1-hr) |
+| **End of degree** | ~1 hr | [§ End of degree](#end-of-degree-1-hr) |
 
 ---
 
