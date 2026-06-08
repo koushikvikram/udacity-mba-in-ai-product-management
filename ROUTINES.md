@@ -10,10 +10,10 @@ Companion docs: [GUIDE.md](./GUIDE.md) (philosophy) · [meta/README.md](./meta/R
 
 | Cadence | Time | Doc / template |
 |---------|------|----------------|
-| **Per burst** | 25–50 min | [§ Each burst](#each-burst-1-3-25-50-min) |
+| **Per burst** | 25–50 min | [§ Each burst](#each-burst) |
 | **Daily** | Study days | [§ Daily](#daily-study-days) · [daily-study-session.md](./meta/templates/daily-study-session.md) |
 | **Event (≤24h)** | After setback | [post-mortem.md](./meta/templates/post-mortem.md) · [§ Event-driven](#event-driven-within-24-hours) |
-| **Weekly** | ~15–20 min | [§ Weekly](#weekly-15-20-min-same-day-each-week) · [weekly-meta-review.md](./meta/templates/weekly-meta-review.md) + [weekly-review.md](./notes/templates/weekly-review.md) |
+| **Weekly** | ~15–20 min | [§ Weekly](#weekly) · [weekly-meta-review.md](./meta/templates/weekly-meta-review.md) + [weekly-review.md](./notes/templates/weekly-review.md) |
 | **Monthly** | ~20 min | [§ Monthly](#monthly-20-min-first-week-of-month) · [monthly-review.md](./meta/templates/monthly-review.md) |
 | **End of course** | ~15 min | [§ End of course](#end-of-course-15-min) |
 | **End of program** | ~30 min | [§ End of program](#end-of-program-30-min) |
@@ -34,6 +34,8 @@ Companion docs: [GUIDE.md](./GUIDE.md) (philosophy) · [meta/README.md](./meta/R
 - [ ] **Re-read the entire blank sheet** (30 sec – 2 min)
 - [ ] If first session on this course: fill *Before I start*
 - [ ] Check [meta/metrics.md](./meta/metrics.md) revision queue — anything due today?
+
+<a id="each-burst"></a>
 
 ### Each burst (1–3 × 25–50 min)
 
@@ -73,6 +75,8 @@ Trigger: failed quiz, rejected project, bad session, mentor feedback that stings
 - [ ] Mark in [meta/metrics.md](./meta/metrics.md) setbacks table
 
 ---
+
+<a id="weekly"></a>
 
 ## Weekly (~15–20 min, same day each week)
 
