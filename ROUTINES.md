@@ -33,6 +33,7 @@ Companion docs: [GUIDE.md](./GUIDE.md) (philosophy) · [meta/README.md](./meta/R
 - [ ] Open that course's **blank sheet** (`core/.../notes/<course>.md`)
 - [ ] **Re-read the entire blank sheet** (30 sec – 2 min)
 - [ ] If first session on this course: fill *Before I start*
+- [ ] If transcripts are available: run [Transcript prep](#transcript-prep-before-a-burst) for the next lesson block
 - [ ] Check [meta/metrics.md](./meta/metrics.md) revision queue — anything due today?
 
 <a id="each-burst"></a>
@@ -41,10 +42,61 @@ Companion docs: [GUIDE.md](./GUIDE.md) (philosophy) · [meta/README.md](./meta/R
 
 - [ ] One focused problem (lesson block, project section, or assessment prep)
 - [ ] Distractions blocked
-- [ ] Study in Udacity
+- [ ] Study in Udacity with transcript-prepped notes open when available
+- [ ] Correct, compress, and personalize AI notes while watching — do not transcribe manually unless the transcript is missing or wrong
 - [ ] **Artifact:** append dated entry to blank sheet *Session log* ([what is a session log?](./notes/README.md#session-log))
 - [ ] Check off completed items in program [SYLLABUS.md](./core/01-implementation-and-product-introduction/product-manager/SYLLABUS.md)
 - [ ] Jot burst in [progress/study-log.md](./progress/study-log.md) (can batch at end of day)
+
+### Transcript prep before a burst
+
+Use transcripts to remove stenography from the burst. AI may create the first-pass notes, but the burst is still for watching, verifying, and making the ideas your own.
+
+#### 1. Prepare notes from transcript
+
+Paste the transcript for the next video or lesson block into the model:
+
+```text
+You are helping me study an Udacity MBA / product management lesson.
+
+Turn this transcript into study notes for my course blank sheet.
+
+Output:
+1. Key ideas, in the order they appear
+2. Frameworks, definitions, or named concepts
+3. Examples or case studies used by the instructor
+4. Likely quiz, project, or interview relevance
+5. "Watch carefully for" cues: places where the transcript suggests nuance, a visual, a demo, or instructor emphasis that I should verify while watching
+6. 3-5 compressed takeaways in my own-note style
+
+Rules:
+- Do not invent facts not present in the transcript.
+- Keep the notes concise enough to review before watching.
+- Mark uncertain or garbled transcript sections as [verify while watching].
+- Prefer product/business implications over verbatim wording.
+
+Transcript:
+```
+
+#### 2. Review while watching
+
+Keep the AI notes beside the video and use this prompt after watching if the notes need cleanup:
+
+```text
+I watched the video and made corrections/observations below.
+
+Please revise the notes so they reflect the transcript plus my corrections.
+Keep the result concise, structured, and suitable for appending to my course blank sheet.
+Do not remove my personal observations unless they are duplicates.
+
+Original AI notes:
+
+My corrections / observations:
+```
+
+#### 3. Close the burst yourself
+
+Write the *Session log* entry manually. Include what moved, what clicked, what is still fuzzy, and the next starting point. The log is the learning trace; AI can draft lesson notes, not your reflection.
 
 ### End of study day (~2 min)
 
