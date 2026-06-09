@@ -1,0 +1,193 @@
+site_name: MBA in AI Product Management
+site_description: Markdown-first study site for the Udacity MBA in AI Product Management workspace.
+docs_dir: .site-docs
+site_dir: .site-build/local
+strict: false
+
+theme:
+  name: material
+  features:
+    - navigation.indexes
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.suggest
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - md_in_html
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      permalink: true
+
+validation:
+  nav:
+    omitted_files: info
+  links:
+    not_found: warn
+    anchors: warn
+    absolute_links: info
+    unrecognized_links: info
+
+nav:
+  - Home: README.md
+  - Program:
+      - Overview: PROGRAM.md
+      - Guide: GUIDE.md
+      - Routines: ROUTINES.md
+      - Static Site Layer: SITE.md
+  - Progress:
+      - Tracker: progress/TRACKER.md
+      - Study Log: progress/study-log.md
+  - Core Curriculum:
+      - Overview: core/README.md
+      - Implementation and Product Introduction:
+          - Overview: core/01-implementation-and-product-introduction/README.md
+          - Product Manager:
+              - Overview: core/01-implementation-and-product-introduction/product-manager/README.md
+              - Syllabus: core/01-implementation-and-product-introduction/product-manager/SYLLABUS.md
+              - Notes:
+                  - Index: core/01-implementation-and-product-introduction/product-manager/notes/README.md
+                  - Product Strategy: core/01-implementation-and-product-introduction/product-manager/notes/01-product-strategy.md
+                  - Product Design: core/01-implementation-and-product-introduction/product-manager/notes/02-product-design.md
+                  - Product Development: core/01-implementation-and-product-introduction/product-manager/notes/03-product-development.md
+                  - Product Launch: core/01-implementation-and-product-introduction/product-manager/notes/04-product-launch.md
+              - Projects:
+                  - Index: core/01-implementation-and-product-introduction/product-manager/projects/README.md
+                  - Pitch a Product Vision: core/01-implementation-and-product-introduction/product-manager/projects/pitch-a-product-vision.md
+                  - Run a Design Sprint: core/01-implementation-and-product-introduction/product-manager/projects/run-a-design-sprint.md
+                  - Managing Product Development: core/01-implementation-and-product-introduction/product-manager/projects/managing-product-development.md
+                  - Deliver a Product to Market: core/01-implementation-and-product-introduction/product-manager/projects/deliver-a-product-to-market.md
+          - AI Product Manager:
+              - Overview: core/01-implementation-and-product-introduction/ai-product-manager/README.md
+              - Syllabus: core/01-implementation-and-product-introduction/ai-product-manager/SYLLABUS.md
+              - Notes:
+                  - Index: core/01-implementation-and-product-introduction/ai-product-manager/notes/README.md
+                  - Leveraging Data with AI: core/01-implementation-and-product-introduction/ai-product-manager/notes/01-leveraging-data-with-ai.md
+                  - Bespoke Datasets: core/01-implementation-and-product-introduction/ai-product-manager/notes/02-bespoke-datasets.md
+                  - Generative AI Products: core/01-implementation-and-product-introduction/ai-product-manager/notes/03-generative-ai-products.md
+              - Projects:
+                  - Index: core/01-implementation-and-product-introduction/ai-product-manager/projects/README.md
+                  - Gift Recommendation PRD: core/01-implementation-and-product-introduction/ai-product-manager/projects/gift-recommendation-prd.md
+                  - Tasty Cuts Roadmap: core/01-implementation-and-product-introduction/ai-product-manager/projects/tasty-cuts-roadmap.md
+                  - LLM Business Solutions: core/01-implementation-and-product-introduction/ai-product-manager/projects/llm-business-solutions.md
+      - Statistics and Data Analysis:
+          - Overview: core/02-statistics-and-data-analysis/README.md
+          - Intro to Statistics:
+              - Overview: core/02-statistics-and-data-analysis/intro-to-statistics/README.md
+              - Syllabus: core/02-statistics-and-data-analysis/intro-to-statistics/SYLLABUS.md
+              - Notes:
+                  - Index: core/02-statistics-and-data-analysis/intro-to-statistics/notes/README.md
+                  - Visualization: core/02-statistics-and-data-analysis/intro-to-statistics/notes/01-visualization.md
+                  - Probability: core/02-statistics-and-data-analysis/intro-to-statistics/notes/02-probability.md
+                  - Estimation: core/02-statistics-and-data-analysis/intro-to-statistics/notes/03-estimation.md
+                  - Normal Distribution and CLT: core/02-statistics-and-data-analysis/intro-to-statistics/notes/04-normal-clt.md
+                  - Inference: core/02-statistics-and-data-analysis/intro-to-statistics/notes/05-inference.md
+                  - Regression Cases: core/02-statistics-and-data-analysis/intro-to-statistics/notes/06-regression-cases.md
+          - Intro to Inferential Statistics:
+              - Overview: core/02-statistics-and-data-analysis/intro-to-inferential-statistics/README.md
+              - Syllabus: core/02-statistics-and-data-analysis/intro-to-inferential-statistics/SYLLABUS.md
+              - Notes:
+                  - Index: core/02-statistics-and-data-analysis/intro-to-inferential-statistics/notes/README.md
+                  - Estimation: core/02-statistics-and-data-analysis/intro-to-inferential-statistics/notes/01-estimation.md
+                  - Hypothesis Testing: core/02-statistics-and-data-analysis/intro-to-inferential-statistics/notes/02-hypothesis-testing.md
+                  - T-Tests: core/02-statistics-and-data-analysis/intro-to-inferential-statistics/notes/03-t-tests.md
+                  - ANOVA: core/02-statistics-and-data-analysis/intro-to-inferential-statistics/notes/04-anova.md
+                  - Correlation and Regression: core/02-statistics-and-data-analysis/intro-to-inferential-statistics/notes/05-correlation-regression.md
+                  - Chi-Square and Final: core/02-statistics-and-data-analysis/intro-to-inferential-statistics/notes/06-chi-square-final.md
+              - Projects:
+                  - Index: core/02-statistics-and-data-analysis/intro-to-inferential-statistics/projects/README.md
+                  - Final Project: core/02-statistics-and-data-analysis/intro-to-inferential-statistics/projects/final-project.md
+          - Business Intelligence Analytics:
+              - Overview: core/02-statistics-and-data-analysis/business-intelligence-analytics/README.md
+              - Syllabus: core/02-statistics-and-data-analysis/business-intelligence-analytics/SYLLABUS.md
+              - Notes:
+                  - Index: core/02-statistics-and-data-analysis/business-intelligence-analytics/notes/README.md
+                  - Business Metrics and Spreadsheets: core/02-statistics-and-data-analysis/business-intelligence-analytics/notes/01-business-metrics-spreadsheets.md
+                  - SQL Data Analysis: core/02-statistics-and-data-analysis/business-intelligence-analytics/notes/02-sql-data-analysis.md
+                  - Tableau Visualization: core/02-statistics-and-data-analysis/business-intelligence-analytics/notes/03-tableau-visualization.md
+              - Projects:
+                  - Index: core/02-statistics-and-data-analysis/business-intelligence-analytics/projects/README.md
+                  - Ecommerce Profits: core/02-statistics-and-data-analysis/business-intelligence-analytics/projects/ecommerce-profits.md
+                  - Retail Analysis: core/02-statistics-and-data-analysis/business-intelligence-analytics/projects/retail-analysis.md
+                  - Tableau Visualizations: core/02-statistics-and-data-analysis/business-intelligence-analytics/projects/tableau-visualizations.md
+      - Digital Marketing:
+          - Overview: core/03-digital-marketing/README.md
+          - Syllabus: core/03-digital-marketing/SYLLABUS.md
+          - Notes:
+              - Index: core/03-digital-marketing/notes/README.md
+              - Marketing Fundamentals: core/03-digital-marketing/notes/01-marketing-fundamentals.md
+              - Marketing Data Technology: core/03-digital-marketing/notes/02-marketing-data-technology.md
+              - Social Media Marketing: core/03-digital-marketing/notes/03-social-media-marketing.md
+              - SEO: core/03-digital-marketing/notes/04-seo.md
+              - SEM: core/03-digital-marketing/notes/05-sem.md
+              - Digital Advertising: core/03-digital-marketing/notes/06-digital-advertising.md
+              - Email Marketing: core/03-digital-marketing/notes/07-email-marketing.md
+          - Projects:
+              - Index: core/03-digital-marketing/projects/README.md
+              - Get Ready to Market: core/03-digital-marketing/projects/get-ready-to-market.md
+              - Market With Email: core/03-digital-marketing/projects/market-with-email.md
+              - Marketing Your Content: core/03-digital-marketing/projects/marketing-your-content.md
+              - Conduct SEO Audit: core/03-digital-marketing/projects/conduct-seo-audit.md
+              - Evaluate Google Ads: core/03-digital-marketing/projects/evaluate-google-ads.md
+              - Multichannel Ad Campaign: core/03-digital-marketing/projects/multichannel-ad-campaign.md
+              - Draw Insights From Marketing Data: core/03-digital-marketing/projects/draw-insights-marketing-data.md
+      - Growth Product Management:
+          - Overview: core/04-growth-product-management/README.md
+          - Syllabus: core/04-growth-product-management/SYLLABUS.md
+          - Notes:
+              - Index: core/04-growth-product-management/notes/README.md
+              - Growth Acquisition: core/04-growth-product-management/notes/01-growth-acquisition.md
+              - Activation and Retention: core/04-growth-product-management/notes/02-activation-retention.md
+              - Monetization: core/04-growth-product-management/notes/03-monetization.md
+          - Projects:
+              - Index: core/04-growth-product-management/projects/README.md
+              - Crafting a Growth Loop: core/04-growth-product-management/projects/crafting-a-growth-loop.md
+              - Let It Grow: core/04-growth-product-management/projects/let-it-grow.md
+              - Priceless Penny: core/04-growth-product-management/projects/priceless-penny.md
+      - Business Leadership and Strategy:
+          - Overview: core/05-business-leadership-and-strategy/README.md
+          - AI for Business Leaders:
+              - Overview: core/05-business-leadership-and-strategy/ai-for-business-leaders/README.md
+              - Syllabus: core/05-business-leadership-and-strategy/ai-for-business-leaders/SYLLABUS.md
+              - Notes:
+                  - Index: core/05-business-leadership-and-strategy/ai-for-business-leaders/notes/README.md
+                  - Machine Learning and AI in Business: core/05-business-leadership-and-strategy/ai-for-business-leaders/notes/01-ml-ai-business.md
+                  - Generative AI in Business: core/05-business-leadership-and-strategy/ai-for-business-leaders/notes/02-generative-ai-business.md
+                  - Agentic AI in Business: core/05-business-leadership-and-strategy/ai-for-business-leaders/notes/03-agentic-ai-business.md
+              - Projects:
+                  - Index: core/05-business-leadership-and-strategy/ai-for-business-leaders/projects/README.md
+                  - Generative AI Strategy Roadmap: core/05-business-leadership-and-strategy/ai-for-business-leaders/projects/generative-ai-strategy-roadmap.md
+                  - Agentic Expense Reporting: core/05-business-leadership-and-strategy/ai-for-business-leaders/projects/agentic-expense-reporting.md
+                  - Zap Gas to Electric: core/05-business-leadership-and-strategy/ai-for-business-leaders/projects/zap-gas-to-electric.md
+          - Digital Transformation:
+              - Overview: core/05-business-leadership-and-strategy/digital-transformation/README.md
+              - Syllabus: core/05-business-leadership-and-strategy/digital-transformation/SYLLABUS.md
+              - Notes:
+                  - Index: core/05-business-leadership-and-strategy/digital-transformation/notes/README.md
+                  - Transformation Basics: core/05-business-leadership-and-strategy/digital-transformation/notes/01-transformation-basics.md
+                  - Transformative Technologies: core/05-business-leadership-and-strategy/digital-transformation/notes/02-transformative-technologies.md
+                  - Leader Perspectives: core/05-business-leadership-and-strategy/digital-transformation/notes/03-leader-perspectives.md
+                  - Leading the Unknown: core/05-business-leadership-and-strategy/digital-transformation/notes/04-leading-unknown.md
+                  - Roadmap and Talent Plan: core/05-business-leadership-and-strategy/digital-transformation/notes/05-roadmap-talent-plan.md
+              - Projects:
+                  - Index: core/05-business-leadership-and-strategy/digital-transformation/projects/README.md
+                  - Transformation Roadmap and Talent Plan: core/05-business-leadership-and-strategy/digital-transformation/projects/transformation-roadmap-talent-plan.md
+  - Electives:
+      - Candidates: electives/candidates.md
+  - Capstone:
+      - Overview: capstone/README.md
+  - Cross-Cutting Notes:
+      - Glossary and Notes: notes/README.md
+      - Blank Sheet Template: notes/templates/blank-sheet.md
+      - Module Notes Template: notes/templates/module-notes.md
+      - Project Reflection Template: notes/templates/project-reflection.md
+  - Resources:
+      - External Links: resources/links.md

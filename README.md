@@ -31,6 +31,36 @@ Full guide: **[GUIDE.md](./GUIDE.md)** · Cadence: **[ROUTINES.md](./ROUTINES.md
 | **Daily / weekly / monthly routines** | **[ROUTINES.md](./ROUTINES.md)** |
 | **Performance operating model** | **[meta/](./meta/)** (Epictetus / Mind Master) |
 
+## Optional local site
+
+The repo remains Markdown-first. A lightweight MkDocs Material layer is available for local browsing and search without duplicating content into HTML.
+
+Setup once:
+
+```bash
+uv sync
+```
+
+Preview the private/local study site:
+
+```bash
+uv run mkdocs serve
+```
+
+Build the private/local site:
+
+```bash
+uv run mkdocs build
+```
+
+Build a restricted public-safe version:
+
+```bash
+uv run mkdocs build -f mkdocs-public.yml
+```
+
+Read [SITE.md](./SITE.md) before publishing anything. The default `mkdocs.yml` site is intended for private local use and includes operational study documents; public builds must use `mkdocs-public.yml`.
+
 ## How to use this repo
 
 Read **[GUIDE.md](./GUIDE.md)** for philosophy and **[ROUTINES.md](./ROUTINES.md)** for daily/weekly/monthly cadence and end-of-module routing.

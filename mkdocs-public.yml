@@ -1,0 +1,34 @@
+INHERIT: mkdocs.yml
+
+site_name: MBA in AI Product Management Public Notes
+site_description: Public-safe static view over selected Markdown from the MBA in AI Product Management workspace.
+site_dir: .site-build/public
+
+exclude_docs: |
+  progress/**
+  meta/**
+  rpl/**
+  notes/templates/**
+
+nav:
+  - Home: README.md
+  - Static Site Layer: SITE.md
+  - Program:
+      - Overview: PROGRAM.md
+      - Guide: GUIDE.md
+      - Routines: ROUTINES.md
+  - Core Curriculum:
+      - Overview: core/README.md
+      - Implementation and Product Introduction: core/01-implementation-and-product-introduction/README.md
+      - Statistics and Data Analysis: core/02-statistics-and-data-analysis/README.md
+      - Digital Marketing: core/03-digital-marketing/README.md
+      - Growth Product Management: core/04-growth-product-management/README.md
+      - Business Leadership and Strategy: core/05-business-leadership-and-strategy/README.md
+  - Electives:
+      - Candidates: electives/candidates.md
+  - Capstone:
+      - Overview: capstone/README.md
+  - Cross-Cutting Notes:
+      - Glossary and Notes: notes/README.md
+  - Resources:
+      - External Links: resources/links.md
