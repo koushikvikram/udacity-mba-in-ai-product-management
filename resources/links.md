@@ -51,6 +51,7 @@ _Add books, articles, podcasts you want to read alongside the program._
 |-------|--------|-------|--------|
 | Inspired | Marty Cagan | Product management | |
 | [Steve Jobs on Essense of Product Management](https://www.youtube.com/watch?v=XmRNIGqzuRI) | Ajitesh (Tough Tongue AI Team) | Essence of Product Management | To be understood and internalized |
+| [Building NeXT from the Ground Up - Steve Jobs on Vision and Survival, 1986](https://www.youtube.com/watch?v=s-a4aU1RUgM) | Steve Job Archive | Early entrepreneurship | To be deeply understood |
 
 ## Tools
 
