@@ -50,7 +50,7 @@ _Add books, articles, podcasts you want to read alongside the program._
 | Title | Author | Topic | Status |
 |-------|--------|-------|--------|
 | Inspired | Marty Cagan | Product management | |
-| | | | |
+| [Steve Jobs on Essense of Product Management](https://www.youtube.com/watch?v=XmRNIGqzuRI) | Ajitesh (Tough Tongue AI Team) | Essence of Product Management | To be understood and internalized |
 
 ## Tools
 
