@@ -10,7 +10,14 @@
 
 ## Before I start — what I already know
 
--
+- Product managers define the product vision 1-pager and product strategy.
+- Product managers talk to customers to understand their pain points and needs.
+- Product managers present prototypes, features and products to customers to get their feedback.
+- Product managers track user and product metrics in order to improve the product and decide what features to build.
+- Product managers manage many types of risks. [How to Manage Risks as a Product Manager - The Product Compass](https://www.productcompass.pm/p/how-to-manage-risks-as-a-product-manager)
+- Product managers are involved in product discovery.
+- Product managers communicate user needs and product priorities to a wide variety of stakeholders including Engineering, Design, Marketing and Business.
+- It is the Product Manager's job to figure out what to build and what's feasible to build with what budget and what timeline. [Bud Tribble and Steve Jobs describing a Product Manager role in 1986](https://www.youtube.com/watch?v=_43XPfJEqWc)
 
 ---
 
