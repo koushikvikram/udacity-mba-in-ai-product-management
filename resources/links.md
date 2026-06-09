@@ -59,4 +59,7 @@ _Track software/tools you use across projects._
 
 | Tool | Used in | Notes |
 |------|---------|-------|
-| | | |
+| Presentation program (e.g. Google Slides or Microsoft PowerPoint) | Product Manager Nanodegree | |
+| Wordprocessing program (e.g. Google Docs or Microsoft Word) | Product Manager Nanodegree | |
+
+
