@@ -25,6 +25,16 @@ Site dependencies are managed with `uv` in `pyproject.toml`.
 - Run `uv run mkdocs build` to build the private/local site.
 - Run `uv run mkdocs build -f mkdocs-public.yml` to build the restricted public-safe site.
 
+## CI/CD Deployment
+
+GitHub Actions deploys the public-safe site to GitHub Pages using `.github/workflows/deploy-mkdocs.yml`.
+
+- Pull requests run `uv run mkdocs build -f mkdocs-public.yml --clean` as a build check.
+- Pushes to `main` build the same public site and deploy `.site-build/public` to GitHub Pages.
+- Manual deployments can be started from the workflow's **Run workflow** button.
+
+In the GitHub repository settings, set **Pages → Build and deployment → Source** to **GitHub Actions**.
+
 ## Public Boundary
 
 Public builds must use `mkdocs-public.yml`.

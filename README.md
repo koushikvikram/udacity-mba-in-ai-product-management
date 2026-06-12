@@ -59,6 +59,8 @@ Build a restricted public-safe version:
 uv run mkdocs build -f mkdocs-public.yml
 ```
 
+Deployments use GitHub Actions and GitHub Pages. Pull requests build the public-safe site as CI; pushes to `main` deploy it. Enable **Pages → Build and deployment → Source → GitHub Actions** in the GitHub repository settings.
+
 Read [SITE.md](./SITE.md) before publishing anything. The default `mkdocs.yml` site is intended for private local use and includes operational study documents; public builds must use `mkdocs-public.yml`.
 
 ## How to use this repo
