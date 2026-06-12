@@ -30,6 +30,16 @@ jobs:
       - name: Pull Git LFS assets
         run: git lfs pull
 
+      - name: Materialize MkDocs sources
+        run: |
+          rm -rf .site-docs/README.md .site-docs/PROGRAM.md .site-docs/GUIDE.md .site-docs/ROUTINES.md .site-docs/SITE.md
+          rm -rf .site-docs/core .site-docs/electives .site-docs/capstone .site-docs/notes .site-docs/resources
+          rm -rf .site-docs/progress .site-docs/meta .site-docs/rpl .site-docs/scripts .site-docs/udacity_mba_brochure.pdf
+          mkdir -p .site-docs
+          cp README.md PROGRAM.md GUIDE.md ROUTINES.md SITE.md .site-docs/
+          cp -R core electives capstone notes resources progress meta rpl scripts .site-docs/
+          cp udacity_mba_brochure.pdf .site-docs/
+
       - name: Install uv
         uses: astral-sh/setup-uv@v5
         with:
