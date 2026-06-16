@@ -18,6 +18,9 @@
 - Product managers are involved in product discovery.
 - Product managers communicate user needs and product priorities to a wide variety of stakeholders including Engineering, Design, Marketing and Business.
 - It is the Product Manager's job to figure out what to build and what's feasible to build with what budget and what timeline. [Bud Tribble and Steve Jobs describing a Product Manager role in 1986](https://www.youtube.com/watch?v=_43XPfJEqWc)
+- The "JTBD Playbook" says the "Job" is a stable unit for understanding customers.
+- "The Product-Minded Engineer" says the "Scenario" is the core primitive of product thinking.
+  - A "Scenario" is a user story specifically structured to elicit critical thinking about a product design.
 
 ---
 
